@@ -417,7 +417,7 @@ body {
 	width: 500px;
 	height: 1000px;
 	}
-	.bgpagina1 {
+	#bgpagina1 {
 	filter: blur(1px);
 	}	
 	
@@ -425,12 +425,11 @@ body {
 @media screen and (max-width: 460px) and (min-width: 1px) {
 	
 	.menu {
-		background-color: yellow;
 		width: 500px;
 		height: 1000px;
 		transform: scaleX(0.25) translateX(-780px) scaleY(0.25) translateY(-1550px);
 	}
-	.bgpagina1 {
+	#bgpagina1 {
 		filter: blur(0px);
 	}
 		
