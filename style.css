@@ -418,6 +418,7 @@ body {
 	height: 1000px;
 	}
 	#bgpagina1 {
+		background-color: blue;
 	filter: blur(1px);
 	}	
 	
@@ -430,6 +431,7 @@ body {
 		transform: scaleX(0.25) translateX(-780px) scaleY(0.25) translateY(-1550px);
 	}
 	#bgpagina1 {
+		background-color: red;
 		filter: blur(0px);
 	}
 		
