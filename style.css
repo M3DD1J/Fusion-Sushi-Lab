@@ -45,7 +45,7 @@ body {
 	transform: translate(-140px, -2350px);
 	position: absolute;
 	z-index: 2;
-	filter: blur(3px);
+	filter: blur(0px);
 }
 .t1pagina1 {
 	background-repeat: no-repeat;
