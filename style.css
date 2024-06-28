@@ -20,7 +20,6 @@ body {
 .boxpagina1 {
 	width: 1494px;
 	height: 2216px;
-	background-color: ;
 	position: relative;
 	z-index: 3;
 	transform: translate(132px, 132px);
@@ -28,14 +27,12 @@ body {
 .box1pagina1 {
 	width: 100%;
 	height: 30%;
-	background-color: ;
 	position: relative;
 	z-index: 4;
 }
 .box2pagina1 {
 	width: 100%;
 	height: 70%;
-	background-color: ;
 	position: relative;
 	z-index: 4;
 }
@@ -72,6 +69,7 @@ body {
 }
 
 .box1pagina1:hover ~ #bgpagina1 {
+
 	opacity: 82%;
 	filter: blur(20px)
 }
