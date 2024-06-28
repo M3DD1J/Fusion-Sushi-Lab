@@ -1,0 +1,439 @@
+body {
+	background-color: black;
+}
+.pagina1, .pagina2, .pagina3, .pagina4, .pagina5, .pagina6 {}
+.menu {
+	width: 100%;
+	height: 14.934px;	
+	z-index: 0;
+}
+.pagina1 {
+	background-repeat: horizontal;
+	background-image: url(pagina#.png);
+	width: 1748px;
+	height: 2480px;
+	z-index: 1;
+	position: static;
+	transform: translate(0px, 0px);
+		
+}
+.boxpagina1 {
+	width: 1494px;
+	height: 2216px;
+	background-color: ;
+	position: relative;
+	z-index: 3;
+	transform: translate(132px, 132px);
+}
+.box1pagina1 {
+	width: 100%;
+	height: 30%;
+	background-color: ;
+	position: relative;
+	z-index: 4;
+}
+.box2pagina1 {
+	width: 100%;
+	height: 70%;
+	background-color: ;
+	position: relative;
+	z-index: 4;
+}
+#bgpagina1 {
+	background-repeat: no-repeat;
+	opacity: 100%;
+	background-image: url(pagina1/background.png);
+	width: 1748px;
+	height: 2480px;
+	transform: translate(-140px, -2350px);
+	position: absolute;
+	z-index: 2;
+	filter: blur(3px);
+}
+.t1pagina1 {
+	background-repeat: no-repeat;
+	background-image: url(pagina1/testo1.png);
+	width: 1480px;
+	height: 601px;
+	transform: translate(0px,0px);
+	z-index: 5;
+	position: relative;
+	filter: opacity(100%);
+}
+
+.t2pagina1 {
+	background-repeat: no-repeat;
+	background-image: url(pagina1/testo2.png);
+	width: 723px;
+	height: 46px;
+	transform: translate(750px, 750px);
+	z-index: 5;
+	position: relative;
+}
+
+.box1pagina1:hover ~ #bgpagina1 {
+	opacity: 82%;
+	filter: blur(20px)
+}
+.t1pagina1:hover {
+	filter: brightness(120%);
+}
+
+.pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina#.png);
+	width: 1748px;
+	height: 2480px;	
+	z-index: 1;
+	position: static;	
+}
+#bgpagina2 {
+	opacity: 100%;
+	background-repeat: no-repeat;
+	background-image: url(pagina2/background.png);
+	width: 1748px;
+	height: 2480px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(-140px, -2445px);
+}
+.t1pagina2 {
+
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo1.png);
+	width: 752px;
+	height: 115px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	transform: translate(0px, 0px);
+	z-index: 5;
+}
+#boxpagina2 {
+	width: 1458px;
+	height: 2189px;
+	transform: translate(132px, 132px);
+	border: 0px solid black;
+	position: absolute;
+	z-index: 3;
+}
+#box1pagina2 {
+	width: 100%;
+	height: 185px;
+	transform: translate(-14px, -14px);	
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+
+}
+#box2pagina2 {
+	width: 100%;
+	height: 185px;
+	transform: translate(-14px, -26px);
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+}
+#box3pagina2 {
+	width: 100%;
+	height: 320px;
+	transform: translate(-14px, -38px);
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+}
+#box4pagina2 {
+	width: 100%;
+	height: 728px;
+	transform: translate(-14px, -52px);
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+}
+#box5pagina2 {
+	width: 100%;
+	height: 186px;
+	transform: translate(-14px, -65px);
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+}
+#box6pagina2 {
+	width: 100%;
+	height: 508px;
+	transform: translate(-14px, -78px);
+	border: 14px solid black;
+	position: relative;
+	z-index: 4;
+}
+.t2pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo2.png);
+	width: 1081px;
+	height: 119px;
+	transform: translate(0px, 24px);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	z-index: 5;
+}
+.t3pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo3.png);
+	width: 985px;
+	height: 248px;
+	position: relative;
+	transform: translate(0px, 35px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	z-index: 5;
+}
+.t4pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo4.png);
+	width: 1345px;
+	height: 661px;
+	position: relative;
+	transform: translate(0px, 41px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	z-index: 5;
+}
+.t5pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo5.png);
+	width: 559px;
+	height: 116px;
+	position: relative;
+	transform: translate(0px, 31px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	z-index: 5;
+}
+.t6pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo6.png);
+	width: 1333px;
+	height: 470px;
+	position: relative;
+	transform: translate(-4px, 27px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	z-index: 5;
+}
+.t7pagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testo7.png);
+	width: 680px;
+	height: 31px;
+	position: relative;
+	z-index: 5;
+	transform: translate(-450px, -24px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	
+}
+#tfpagina2 {
+	background-repeat: no-repeat;
+	background-image: url(pagina2/testof.png);
+	width: 67px;
+	height: 69px;
+	position: relative;
+	z-index: 5;
+	transform: translate(960px, 124px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+#box1pagina2:hover ~ #bgpagina2 {filter: opacity();}
+
+.g1pagina2 {background-color: white;}
+
+.s1pagina2 {position: relative; z-index:5;}
+.s1pagina2:hover + :not(.s1pagina2:hover) {filter: blur(2px);}
+
+#box1pagina2:hover {border: 14px solid white; z-index: 6;}
+.t1pagina2:hover {filter: brightness(400%); transform: scale(1.1, 1.1) translate(0px, 05px);}
+
+#box2pagina2:hover {border: 14px solid white; z-index: 6;}
+.t2pagina2:hover {transform: scale(1.02, 1.02) translate(0px, 25px);}
+
+#box3pagina2:hover {border: 14px solid white; z-index: 6;}
+.t3pagina2:hover {filter: brightness(400%); transform: scale(1.1, 1.1) translate(0px, 25px);}
+#box4pagina2:hover {border: 14px solid white; z-index: 6;}
+.t4pagina2:hover {transform: scale(1.02, 1.02) translate(0px, 30px);}
+#tfpagina2:hover {filter: brightness(400%);}
+
+#box5pagina2:hover {border: 14px solid white; z-index: 6;}
+.t5pagina2:hover {
+	filter: brightness(400%);
+	transform: scale(1.1, 1.1) translate(0px,30px);
+		}
+
+#box6pagina2:hover {border: 14px solid white; z-index: 6;}
+.t6pagina2:hover {transform: scale(1.02, 1.02) translate(0px, 25px);}
+
+
+.pagina3 {
+	background-repeat: no-repeat;
+	background-image: url(pagina3.png);
+	width: 1740px;
+	height: 2490px;
+	position: static;
+	z-index: 1;
+}
+#bgpagina3 {
+	opacity: 0%;
+	background-repeat: no-repeat;
+	background-image: url(pagina3/background.png);
+	width: 1748px;
+	height: 2480px;
+	z-index: 2;
+	position: absolute;
+	transform: translate(-140px, -2445px);
+}      
+#boxpagina3 {
+	width: 1458px;
+	height: 2189px;
+	position: absolute;
+}
+	
+.pagina4 {
+	filter: opacity(100%);
+	background-repeat: no-repeat;
+	background-image: url(pagina4.png);
+	width: 1740px;
+	height: 2490px;
+	position: static;
+	z-index: 1;
+}
+.pagina5 {
+	background-repeat: no-repeat;
+	background-image: url(pagina5.png);
+	width: 1740px;
+	height: 2490px;
+}
+.pagina6 {
+	background-repeat: no-repeat;
+	background-image: url(pagina6.png);
+	width: 1740px;
+	height: 2490px;
+}
+@media screen and (max-width: 1760px) and (min-width: 1500px) {
+	.box1pagina1 {
+	transform: scale(0.7, 0.7)
+	}
+	.menu {
+	transform: translate(-20px, -20px);
+	}
+}
+@media screen and (max-width: 1500px) and (min-width: 1400px) {
+	.menu {
+		transform: scale(0.85, 0.85) translate(-70px, -100px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
+	.menu {
+		transform: scale(0.8, 0.8) translate(-75px, -135px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+	.menu {
+		transform: scale(0.75, 0.75) translate(-95px, -180px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 1110px) {
+	.menu {
+		transform: scale(0.7, 0.7) translate(-115px, -225px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1110px) and (min-width: 1050px) {
+	.menu {
+		transform: scale(0.65, 0.65) translate(-150px, -280px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1050px) and (min-width: 980px) {
+	.menu {
+		transform: scale(0.6, 0.6) translate(-200px, -345px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 980px) and (min-width: 900px) {
+	.menu {
+		transform: scale(0.55, 0.55) translate(-218px, -420px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+	.menu {
+		transform: scale(0.5, 0.5) translate(-265px, -515px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 800px) and (min-width: 700px) {
+	.menu {
+		transform: scale(0.45, 0.45) translate(-325px, -625px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 700px) and (min-width: 640px) {
+	.menu {
+		transform: scale(0.4, 0.4) translate(-394px, -770px);
+		width: 500px;
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 640px) and (min-width: 555px) {
+	.menu {
+		transform: scale(0.35, 0.35) translate(-480px, -950px);
+		width: 500px;
+		height: 1000px;
+	}
+
+}
+@media screen and (max-width: 555px) and (min-width: 461px) {
+	.menu {
+	transform: scale(0.3, 0.3) translate(-610px, -1190px);
+	width: 500px;
+	height: 1000px;
+	}
+	.bgpagina1 {
+	filter: blur(1px);
+	}	
+	body {overflow-X: hidden;}
+}
+@media screen and (max-width: 460px) and (min-width: 1px) {
+	
+	.menu {
+		width: 500px;
+		height: 1000px;
+		transform: scaleX(0.25) translateX(-780px) scaleY(0.25) translateY(-1550px);
+	}
+	.bgpagina1 {
+		filter: blur(0px);
+	}
+		
+	
+}
